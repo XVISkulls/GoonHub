@@ -1,4 +1,4 @@
-if game.PlaceId = 6875469709 then
+if game.PlaceId == 6875469709 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("GoonHub - Strongest Punch Sim", "Sentinel")
 
@@ -18,3 +18,4 @@ game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
    wait(.25)
     end
 end)
+end
