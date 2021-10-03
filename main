@@ -18,4 +18,3 @@ game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
    wait(.25)
     end
 end)
-end
